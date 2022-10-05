@@ -1,0 +1,481 @@
+{
+    "count" : 50,
+    
+    "1" : {
+        "name" : "Instagram",
+        "look" : "https://www.instagram.com/{}/",
+        "type" : "Social Media",
+        "cn"   : "General",
+        "nf"   : "<title>Instagram</title>",
+        "cll"  : "div::_aacl _aaco _aacu _aacx _aad6 _aade",
+        "cll_t": "Bio"
+    },
+    "2" : {
+        "name" : "Github",
+        "look" : "https://github.com/{}/",
+        "type" : "Code - Depo",
+        "cn"   : "General", 
+        "nf"   : 404,
+        "cll"  : "span::p-label",
+        "cll_t": "Location"
+    },
+    "3" : {
+        "name" : "Telegram",
+        "look" : "https://t.me/{}/",
+        "type" : "Chat",
+        "cn"   : "General",
+        "nf"   : "If you have <strong>Telegram</strong>, you can contact",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "4" : {
+        "name" : "VK",
+        "look" : "https://vk.com/{}/",
+        "type" : "Social Media",
+        "cn"   : "Russia",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "5" : {
+        "name" : "Tumblr",
+        "look" : "https://{}.tumblr.com/",
+        "type" : "Blog",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "6" : {
+        "name" : "Devintart",
+        "look" : "https://www.deviantart.com/{}/",
+        "type" : "Art - Image",
+        "cn"   : "General",
+        "nf"   : "Page Not Found",
+        "cll"  : "div::legacy-journal py0Gw maturefilter",
+        "cll_t": "Bio"
+    },
+    "7" : {
+        "name" : "HackerOne",
+        "look" : "https://hackerone.com/{}/",
+        "type" : "Cyber Security",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "8" : {
+        "name" : "Pastebin",
+        "look" : "https://pastebin.com/u/{}/",
+        "type" : "Paste",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "9" : {
+        "name" : "Kaggle",
+        "look" : "https://www.kaggle.com/{}/",
+        "type" : "Code - Depo",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "10" : {
+        "name" : "Myspace",
+        "look" : "https://myspace.com/{}/",
+        "type" : "Music",
+        "cn"   : "USA",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "11" : {
+        "name" : "AsciiNema",
+        "look" : "https://asciinema.org/~{}/",
+        "type" : "Code - Depo",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "12" : {
+        "name" : "Snapchat",
+        "look" : "https://www.snapchat.com/add/{}/",
+        "type" : "Chat",
+        "cn"   : "General",
+        "nf"   : ">Snapchat</title>",
+        "cll"  : "div::ShareBar_shareContainerBoxShadow___MxlX ShareBar_shareContainer__Ojh_H",
+        "cll_t": "Snapchat Contacts"
+    },
+    "13" : {
+        "name" : "Flickr",
+        "look" : "https://www.flickr.com/photos/{}/",
+        "type" : "Photo & Design",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "14" : {
+        "name" : "Steam",
+        "look" : "https://steamcommunity.com/id/{}/",
+        "type" : "Game",
+        "cn"   : "General",
+        "nf"   : "<title>Steam Community :: Error</title>",
+        "cll"  : "div::header_real_name ellipsis",
+        "cll_t": "Real Name"
+    },
+    "15" : {
+        "name" : "Steemit",
+        "look" : "https://steemit.com/@{}/",
+        "type" : "Competition",
+        "cn"   : "General",
+        "nf"   : "Not to worry. You can head back to",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "16" : {
+        "name" : "AskFm",
+        "look" : "https://ask.fm/{}/",
+        "type" : "Chat",
+        "cn"   : "General",
+        "nf"   : "Well, apparently not anymore.",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "17" : {
+        "name" : "YouTube",
+        "look" : "https://www.youtube.com/c/{}/",
+        "type" : "Social Media - Video",
+        "cn"   : "General",
+        "nf"   : "<title>404 Not Found</title>",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "18" : {
+        "name" : "Duolingo",
+        "look" : "https://www.duolingo.com/profile/{}",
+        "type" : "Learn - Language",
+        "cn"   : "General",
+        "nf"   : "<title>Duolingo</title>",
+        "cll"  : "div::h4::_3gX7q",
+        "cll_t": "Total XP"
+    },
+    "19" : {
+        "name" : "Patreon",
+        "look" : "https://www.patreon.com/{}/",
+        "type" : "Suporter",
+        "cn"   : "General",
+        "nf"   : "      <title>Patreon</title>",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "20" : {
+        "name" : "Chess",
+        "look" : "https://www.chess.com/member/{}/",
+        "type" : "Chess - Game",
+        "cn"   : "General",
+        "nf"   : "ops! Something is clearly wrong here...",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "21" : {
+        "name" : "Anime-Planet",
+        "look" : "https://www.anime-planet.com/users/{}/",
+        "type" : "Anime - Cartoon",
+        "cn"   : "General",
+        "nf"   : "<title>Anime-Planet Community | Anime-Planet</title>",
+        "cll"  : "span::slCount",
+        "cll_t": "Watched Anime Count"
+    },
+    "22" : {
+        "name" : "Rumble",
+        "look" : "https://rumble.com/c/{}/",
+        "type" : "News",
+        "cn"   : "General",
+        "nf"   : "404 - Not found",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "23" : {
+        "name" : "Triller",
+        "look" : "https://triller.co/@{}/",
+        "type" : "Music",
+        "cn"   : "General",
+        "nf"   : "<title>Triller</title>",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "24" : {
+        "name" : "SoundCloud",
+        "look" : "https://soundcloud.com/{}/",
+        "type" : "Music",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "profileHeaderInfo__additional g-type-shrinkwrap-block theme-dark g-type-shrinkwrap-large-secondary",
+        "cll_t": "Real Name"
+    },
+    "25" : {
+        "name" : "CareerHabr",
+        "look" : "https://career.habr.com/{}",
+        "type" : "Career",
+        "cn"   : "Russia",
+        "nf"   : "404</title>",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "26" : {
+        "name" : "CodeWars",
+        "look" : "https://www.codewars.com/users/{}",
+        "type" : "Code",
+        "cn"   : "General",
+        "nf"   : "Whoops! The page you were looking for doesn't seem to exist.",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "27" : {
+        "name" : "Forum-Bitwarden",
+        "look" : "https://community.bitwarden.com/u/{}/summary",
+        "type" : "Forum",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "28" : {
+        "name" : "Forum-Brave",
+        "look" : "https://community.brave.com/u/{}/summary",
+        "type" : "Forum",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "29" : {
+        "name" : "Forum-Cryptomator",
+        "look" : "https://community.cryptomator.org/u/{}/summary",
+        "type" : "Forum",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "30" : {
+        "name" : "Dev.TO",
+        "look" : "https://dev.to/{}",
+        "type" : "Code",
+        "cn"   : "General",
+        "nf"   : "<title>The page you were looking for doesn't exist (404)</title>",
+        "cll"  : "div::profile-header__details",
+        "cll_t": "Bio"
+    },
+    "31" : {
+        "name" : "Codecedemy",
+        "look" : "https://www.codecademy.com/profiles/{}/",
+        "type" : "Code",
+        "cn"   : "General",
+        "nf"   : "<title>Profile Not Found | Codecademy</title>",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "32" : {
+        "name" : "CodeChef",
+        "look" : "https://www.codechef.com/users/{}/",
+        "type" : "Code",
+        "cn"   : "General",
+        "nf"   : "The username specified does not exist in our database.",
+        "cll"  : "ul::side-nav",
+        "cll_t": "Student Info"
+    },
+    "33" : {
+        "name" : "BuzzFeed",
+        "look" : "https://www.buzzfeed.com/thesaderror",
+        "type" : "QA - News",
+        "cn"   : "General",
+        "nf"   : "<title>Page Not Found</title>",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "34" : {
+        "name" : "Cracked",
+        "look" : "https://www.cracked.com/members/{}",
+        "type" : "Movie",
+        "cn"   : "General",
+        "nf"   : "<title>Cracked.com - America&#039;s Only Humor Site",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "35" : {
+        "name" : "Codeforces",
+        "look" : "https://codeforces.com/profile/{}",
+        "type" : "Code",
+        "cn"   : "General",
+        "nf"   : "<title>Codeforces</title>",
+        "cll"  : "div::_UserActivityFrame_counterValue",
+        "cll_t": "Solved Problems"
+    },
+    "36" : {
+        "name" : "Leetcode",
+        "look" : "https://leetcode.com/{}/",
+        "type" : "Code",
+        "cn"   : "General",
+        "nf"   : "<title>Page Not Found - LeetCode</title>",
+        "cll"  : "span::ttext-label-1 dark:text-dark-label-1 font-medium",
+        "cll_t": "Rank"
+    },
+    "37" : {
+        "name" : "HackerNews",
+        "look" : "https://news.ycombinator.com/user?id={}",
+        "type" : "Hack News",
+        "cn"   : "General",
+        "nf"   : "No such user.",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "38" : {
+        "name" : "Themeforest",
+        "look" : "https://themeforest.net/user/{}",
+        "type" : "Design",
+        "cn"   : "General",
+        "nf"   : "<title>Page Not Found | ThemeForest</title>",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "39" : {
+        "name" : "CoderWall",
+        "look" : "https://coderwall.com/{}",
+        "type" : "Music - Media",
+        "cn"   : "General",
+        "nf"   : "<title>404 : Unable to handle that url</title>",
+        "cll"  : "div::content",
+        "cll_t": "Bio"
+    },
+    "40" : {
+        "name" : "Gravatar",
+        "look" : "https://gravatar.com/profiles/{}",
+        "type" : "Profile",
+        "cn"   : "General",
+        "nf"   : "<title>Gravatar - Globally Recognized Avatars</title>",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "41" : {
+        "name" : "Quora",
+        "look" : "https://www.quora.com/profile/{}",
+        "type" : "QA",
+        "cn"   : "General",
+        "nf"   : "<title>Error</title>",
+        "cll"  : "div::q-text qu-wordBreak--break-word",
+        "cll_t": "Bio"
+    },
+    "42" : {
+        "name" : "Disqus",
+        "look" : "https://disqus.com/by/{}/",
+        "type" : "QA - Chat",
+        "cn"   : "General",
+        "nf"   : "Page not found (404) - Disqus",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "43" : {
+        "name" : "Acedemia",
+        "look" : "https://independent.academia.edu/{}",
+        "type" : "EDU",
+        "cn"   : "General",
+        "nf"   : "<title>Academia.edu</title>",
+        "cll"  : "div::js-profile-about u-overflowHidden",
+        "cll_t": "Bio"
+    },
+    "44" : {
+        "name" : "500PX",
+        "look" : "https://500px.com/p/{}?view=photos",
+        "type" : "Image",
+        "cn"   : "General",
+        "nf"   : "<title>500px</title>",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "45" : {
+        "name" : "BTCForum",
+        "look" : "https://bitcoinforum.com/profile/{}",
+        "type" : "BTC - Forum",
+        "cn"   : "General",
+        "nf"   : "<title>An Error Has Occurred!</title>",
+        "cll"  : "div::content",
+        "cll_t": "Bio"
+    },
+    "46" : {
+        "name" : "Creative-Market",
+        "look" : "https://creativemarket.com/{}",
+        "type" : "Design",
+        "cn"   : "General",
+        "nf"   : "<title>Whoomp, there it isn't! | Creative Market</title>",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "47" : {
+        "name" : "Dribble",
+        "look" : "https://dribbble.com/{}/about",
+        "type" : "Design",
+        "cn"   : "General",
+        "nf"   : "<title>Sorry, the page you were looking for doesn't exist. (404)</title>",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "48" : {
+        "name" : "Eyeem",
+        "look" : "https://www.eyeem.com/u/{}",
+        "type" : "Design - Media",
+        "cn"   : "General",
+        "nf"   :  ">Not Found (404) | EyeEm</title>",
+        "cll"  : "div::css-64wcgg",
+        "cll_t": "Real Name"
+    },
+    "49" : {
+        "name" : "Ello",
+        "look" : "https://ello.co/{}",
+        "type" : "Blog - News",
+        "cn"   : "General",
+        "nf"   :  "<title>Ello | Be inspired. | [404] Not Found</title>",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "50" : {
+        "name" : "Flipboard",
+        "look" : "https://flipboard.com/@{}",
+        "type" : "Blog - News",
+        "cn"   : "General",
+        "nf"   :  "<title>Flipboard Not Available</title>",
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "51" : {
+        "name" : "Gitlab",
+        "look" : "https://gitlab.com/api/v4/users?username={}",
+        "type" : "Code",
+        "cn"   : "General",
+        "nf"   :  "[]",
+        "cll"  : "json::name",
+        "cll_t": "Real Name"
+    },
+    "52" : {
+        "name" : "Gitee",
+        "look" : "https://gitee.com/{}",
+        "type" : "Code",
+        "cn"   : "General",
+        "nf"   :  "<title>你所访问的页面不存在 (404)</title>",
+        "cll"  : "div::user-",
+        "cll_t": "Bio"
+    },
+    "53" : {
+        "name" : "Minecraft",
+        "look" : "https://api.mojang.com/users/profiles/minecraft/{}",
+        "type" : "Game - KID",
+        "cn"   : "General",
+        "nf"   : "None",
+        "cll"  : "json::name",
+        "cll_t": "Real Name"
+    }
+}
