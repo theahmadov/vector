@@ -7,11 +7,26 @@ from prettytable import PrettyTable
 from vapi.poor import color
 from vapi.error import exp
 
-
 class breach:
     url = "https://leakcheck.net/api/public?key=49535f49545f5245414c4c595f4150495f4b4559&check={}"
     saven = "./vapi/save/nick.txt"
     savee = "./vapi/save/email.txt"
+
+def breach_nickname(nickname):
+    nick_search = requests.get(breach.url.format(nickname)).text
+    data_nc = json.loads(nick_search)
+    leaks = []
+    if(data_nc['success']==True):
+        c = len(data_nc['sources'])
+        res = f"""{color.CBLUE}[*]{color.CWHITE} Found {color.CWHITE2}{data_nc['found']}{color.CWHITE} data leaks include {color.CWHITE2}{nickname}{color.CWHITE} with {color.CWHITE2}{data_nc['passwords']}{color.CWHITE} passwords!"""
+        print(res)
+        for j in range(0,c):
+            leaks.append(data_nc['sources'][j]["name"])
+    else:
+        return "false"
+
+    return leaks
+
 
 def run(email,nick):
     time.sleep(2)

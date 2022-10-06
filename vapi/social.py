@@ -13,9 +13,12 @@ class info:
     nickname = None
     name = None
     location = None
+    locations = []
     email = ""
     bio = None
     web = None
+    bio_s = []
+
 
 class social:
     save = "./vapi/save/info.txt"
@@ -112,11 +115,13 @@ def itype(clt, dt):
             itype("Website", biose(dt, "site"))
 
         if clt == "Bio":
+            info.bio_s.append(dt)
             if info.bio == None:
                 info.bio = dt
             else:
                 if len(info.bio) < len(dt):
                     info.bio = dt
+                    
 
         elif clt == "Real Name":
             if info.name == None:
@@ -133,6 +138,7 @@ def itype(clt, dt):
                     info.web = dt
 
         elif clt == "Location":
+            info.locations.append(dt)
             if info.location == None:
                 info.location = dt
             else:
@@ -162,7 +168,7 @@ def exp_check(n):
     return lst
 
 def run(nick):
-    links = []
+    social_links = []
     info.nickname = nick
     # print(f"Hello {nick}!")
 
@@ -181,11 +187,7 @@ def run(nick):
                     if (social.data[f"{n}"]["cll"] != "None" and scrape_c(social.data[f"{n}"]["cll"], look) != "nothing"):
                         scc = scrape_c(social.data[f"{n}"]["cll"], look)
                         itype(social.data[f"{n}"]["cll_t"], scc)
-                        try:
-                            scc = scc.split()
-                        except:
-                            pass
-                        links.append(social.data[f"{n}"]["name"])
+                        social_links.append(social.data[f"{n}"]["name"])
                         print(f"""[{color.CWHITE2}{social.data[f"{n}"]["name"]}{color.CWHITE}]{color.CGREEN}[{color.CWHITE}
                         
     {nick} {color.CBLUE}--> {color.CWHITE2}{social.data[f"{n}"]["look"].format(nick)}
@@ -196,7 +198,7 @@ def run(nick):
                         
                         
                     else:
-                        links.append(social.data[f"{n}"]["name"])
+                        social_links.append(social.data[f"{n}"]["name"])
                         print(f"""[{color.CWHITE2}{social.data[f"{n}"]["name"]}{color.CWHITE}]{color.CGREEN}[{color.CWHITE}
 
     {nick} {color.CBLUE}--> {color.CWHITE2}{social.data[f"{n}"]["look"].format(nick)}
@@ -208,11 +210,7 @@ def run(nick):
                     if (social.data[f"{n}"]["cll"] != "None" and scrape_c(social.data[f"{n}"]["cll"], look) != "nothing"):
                         scc = scrape_c(social.data[f"{n}"]["cll"], look)
                         itype(social.data[f"{n}"]["cll_t"], scc)
-                        try:
-                            scc = scc.split()
-                        except:
-                            pass
-                        links.append(social.data[f"{n}"]["name"])
+                        social_links.append(social.data[f"{n}"]["name"])
                         print(f"""[{color.CWHITE2}{social.data[f"{n}"]["name"]}{color.CWHITE}]{color.CGREEN}[{color.CWHITE}
 
     {nick} {color.CBLUE}--> {color.CWHITE2}{social.data[f"{n}"]["look"].format(nick)}
@@ -222,7 +220,7 @@ def run(nick):
 {color.CGREEN}]{color.CWHITE}""")
                         
                     else:
-                        links.append(social.data[f"{n}"]["name"])
+                        social_links.append(social.data[f"{n}"]["name"])
                         print(f"""[{color.CWHITE2}{social.data[f"{n}"]["name"]}{color.CWHITE}]{color.CGREEN}[{color.CWHITE}
 
     {nick} {color.CBLUE}--> {color.CWHITE2}{social.data[f"{n}"]["look"].format(nick)}
@@ -244,7 +242,10 @@ def run(nick):
     Bio       : {info.bio}
     Web       : {info.web}
     """)
-
-    time.sleep(1)
-    visvapi.run(info.name,info.location,info.email,info.web,info.bio,links)
-    breach.run(None,nick)
+    nickname = info.nickname
+    name = info.name 
+    locations= info.locations
+    email = info.email
+    bio_s = info.bio_s
+    visvapi.run(nickname,name,locations,email,social_links)
+    #breach.run(None,nick)

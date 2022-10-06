@@ -1,5 +1,5 @@
 {
-    "count" : 56,
+    "count" : 57,
     
     "1" : {
         "name" : "Instagram",
@@ -504,5 +504,14 @@
         "nf"   : "<title>Imgur: The magic of the Internet</title>",
         "cll"  : "None",
         "cll_t": "None"
+    },
+    "57" : {
+        "name" : "Tinder",
+        "look" : "https://tinder.com/@{}",
+        "type" : "Dating",
+        "cn"   : "General",
+        "nf"   : "Tinder | Dating, Make Friends &amp;Meet New People</title>",
+        "cll"  : "div::Bdrs(8px) Bgz(cv) Bgp(c) StretchedBox",
+        "cll_t": "Bio"
     }
 }
