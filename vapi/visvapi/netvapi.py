@@ -2,7 +2,7 @@ import requests
 from vapi.poor import color
 from pyvis.network import Network
 from vapi.breach import breach_nickname
-import eel
+# import eel
 
 def vis(nickname,name,locations,email,social):
     print(f"{color.CBLUE}[*]{color.CWHITE2} Vector{color.CWHITE} -->{color.CWHITE2} Netvapi{color.CWHITE} loading collected osint informations and creating graph...")

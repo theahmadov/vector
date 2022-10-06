@@ -13,7 +13,7 @@ def clear():
 def help():
     print(f"""
 {color.CBLUE}-V-{color.CWHITE}
-Vector Guide : 
+Vector Help Guide : 
 
 - Osint : Username Scan
 {color.CVIOLET}${color.CWHITE} python vector.py username
@@ -22,11 +22,11 @@ Vector Guide :
 {color.CVIOLET}${color.CWHITE} python vector.py emailadress
 
 - Osint : IP Info
-{color.CVIOLET}${color.CWHITE} python vector.py ipadress
+{color.CVIOLET}${color.CWHITE} python vector.py xxx.xxx.xxx.xxx
 
 {color.CBLUE}*{color.CWHITE} Vector is easy to use. You just need target in any type. Just use vector in this format : python vector.py target...
 Vector will automaticly understand what is your target type. And will start scan for that information.
-{color.CBLUE}*{color.CWHITE} Below listed osint scans...
+{color.CBLUE}*{color.CWHITE} After username scan {color.CBLUE}Vector{color.CWHITE} will show graph report.
     """)
 
 def T():

@@ -7,6 +7,11 @@ $ python vector.py nickname
 # Start vector web [nickname,email,phone]
 
 """
+################################
+#      Thesaderror & Shahin    #
+################################
+
+# Vector project coded by Thesaderror & Shahin.
 
 import typer
 
@@ -29,7 +34,7 @@ def main(vinp: str):
             email = True
             bnck = tnick.split(i)[0]
 
-    if(vinp == "v" or vinp == "V" or vinp == "help" or ("help" in vinp)):       vapi.help()
+    if(vinp == "v" or vinp == "V" or vinp == "help" or ("help" in vinp) or vinp == "welcome"):       vapi.help()
     elif("thesaderror" in vinp.lower()):                                        vapi.T()
     elif(vinp=="web"):                                                          vapi.web()
     elif(email==True):                                                          vapi.email(vinp,bnck)

@@ -247,5 +247,5 @@ def run(nick):
     locations= info.locations
     email = info.email
     bio_s = info.bio_s
+    breach.run(None,nick)
     visvapi.run(nickname,name,locations,email,social_links)
-    #breach.run(None,nick)
