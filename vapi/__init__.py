@@ -6,6 +6,7 @@ from vapi import geo
 import time
 import os 
 import sys
+from colorama import Fore, Back, Style, init
 
 def clear():
     os.system("cls || clear")
@@ -52,6 +53,24 @@ I am in these platforms :
 https://www.instagram.com/thesaderror/
     """
     print(Tz)
+
+def H():
+    print(Fore.BLUE + "H4wK1n6", end="\r")
+    time.sleep(1)
+    print(Fore.RED + "H4wK1n6", end="\r")
+    time.sleep(1)
+    print(Fore.GREEN + "H4wK1n6")
+    time.sleep(1)
+    
+    print(Fore.CYAN + "Hey! You wanted to get some information about ", Fore.RED + "H4wK1n6!", Fore.CYAN + "Allright...")
+    time.sleep(3)
+    print(Fore.CYAN + "I am an", Fore.GREEN + "experienced competitive/robotics programmer and cyber security student.", Fore.CYAN + "I am from ", Fore.BLUE + "AZE" + Fore.RED + "BAI" + Fore.GREEN + "JAN")
+    time.sleep(3)
+    print(Fore.CYAN + "I made a lot of projects with C/C++(Using since I was 6 years old). And learnt python(still evolving).")
+    time.sleep(3)
+    print(Fore.CYAN + "You can find me here : ")
+    time.sleep(1)
+    print("[+] " + Fore.RED + "Discord : " + Fore.CYAN + "Shahin#2317")
 
 
 def cli(nick):   
