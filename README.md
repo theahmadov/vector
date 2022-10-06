@@ -37,4 +37,4 @@ $ python vector.py xxx.xxx.xxx.xxx
 ![2](https://i.hizliresim.com/rqz6n9e.PNG)
 
 # Disclamier
-**Vector** osint tool is only for educational purposes. And all rights reserved by **Thesaderror** and **Shahin**.
+**Vector** osint tool is only for educational purposes. And all rights reserved by **Thesaderror** and **H4wK1n6**.
