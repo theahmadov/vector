@@ -28,7 +28,10 @@ Vector Help Guide :
 Vector will automaticly understand what is your target type. And will start scan for that information.
 {color.CBLUE}*{color.CWHITE} After username scan {color.CBLUE}Vector{color.CWHITE} will show graph report.
     """)
-
+"""
+Thesaderror sample osint text:
+thesaderror#1351
+"""
 def T():
     print(f"{color.CBOLD}{color.CBLUE}[*]{color.CWHITE} Starting {color.CWHITE2}Vector{color.CWHITE}...")
     time.sleep(1)
@@ -53,7 +56,10 @@ https://www.instagram.com/thesaderror/
     """
     print(Tz)
 
-
+"""
+Hawkings sample osint text:
+Shahin#2317
+"""
 def H():
     print(f"{color.CBOLD}{color.CBLUE}[*]{color.CWHITE} Starting {color.CWHITE2}Vector{color.CWHITE}...")
     time.sleep(1)
