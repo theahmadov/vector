@@ -13,14 +13,13 @@ pip install -r requirements.txt
 python vector.py v
 ```
 ### Windows Installation
-![w1](https://media.discordapp.net/attachments/1027987070075015259/1027987097904230400/Capture.PNG)
-Press download button.
-![w2](https://media.discordapp.net/attachments/1027987070075015259/1027987098529177610/Capture1.PNG)
-And extract zip , rar or tar.gz file on file manager. And open directory by terminal. And start to read Help-Guide. 
-![w3](https://media.discordapp.net/attachments/1027987070075015259/1027987098961190912/Capture2.PNG)
+```python
+Use Code button on github and press download button. Extract vector-main zip , rar or tar.gz 
+file on file manager. And open directory by terminal. And start to read Help-Guide.```
+```
 
 ## Help-Guide
-```c
+```
 - Osint : Username Scan
 $ python vector.py username
 
