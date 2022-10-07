@@ -3,7 +3,7 @@
 **Vector project is doxing (osint) tool for hunt social media accounts , extract locations , contact informations , leak check also it include graph visualiser. This module will show you extracted informations better. Otherwise you can see cli log too. Just need to know how to use. [It is easy...]**
 
 ## Installation
-Vector can be used in any Linux Os easly. But you need python programming language already installed. -It should be- . But in windows installation you need to open vectors offical github page and go download section and download as zip, extract, **open vector dir by cmd** and run it via **cmd**...
+Vector can be used in any Linux Os easily. But you need the python programming language already installed. -It should be- . But in windows installation you need to open vectors offical github page and go to the download section and download as a zip, extract, **open vector dir by cmd** and run it via **cmd**...
 ```bash
 git clone https://github.com/thesaderror/vector
 cd vector
@@ -38,6 +38,3 @@ $ python vector.py xxx.xxx.xxx.xxx
 
 # Disclamier
 **Vector** osint tool is only for educational purposes. And all rights reserved by **Thesaderror** and **H4wK1n6**.
-
-![Contribution1](https://activity-graph.herokuapp.com/graph?username=thesaderror&theme=react-dark&hide_border=true&area=true)
-![Contribution2](https://activity-graph.herokuapp.com/graph?username=shalekberli&theme=react-dark&hide_border=true&area=true)
