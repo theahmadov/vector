@@ -36,6 +36,7 @@ def main(vinp: str):
 
     if(vinp == "v" or vinp == "V" or vinp == "help" or ("help" in vinp) or vinp == "welcome"):       vapi.help()
     elif("thesaderror" in vinp.lower()):                                        vapi.T()
+    elif("shahin" in vinp.lower() or "H4wK1n6" in vinp.lower()):                vapi.H()
     elif(vinp=="web"):                                                          vapi.web()
     elif(email==True):                                                          vapi.email(vinp,bnck)
     elif(is_ip(vinp)):                                                          vapi.geos(vinp)
