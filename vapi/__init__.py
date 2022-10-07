@@ -6,7 +6,6 @@ from vapi import geo
 import time
 import os 
 import sys
-from colorama import Fore, Back, Style, init
 
 def clear():
     os.system("cls || clear")
@@ -54,24 +53,25 @@ https://www.instagram.com/thesaderror/
     """
     print(Tz)
 
-def H():
-    print(Fore.BLUE + "H4wK1n6", end="\r")
-    time.sleep(1)
-    print(Fore.RED + "H4wK1n6", end="\r")
-    time.sleep(1)
-    print(Fore.GREEN + "H4wK1n6")
-    time.sleep(1)
-    
-    print(Fore.CYAN + "Hey! You wanted to get some information about ", Fore.RED + "H4wK1n6!", Fore.CYAN + "Allright...")
-    time.sleep(3)
-    print(Fore.CYAN + "I am an", Fore.GREEN + "experienced competitive/robotics programmer and cyber security student.", Fore.CYAN + "I am from ", Fore.BLUE + "AZE" + Fore.RED + "BAI" + Fore.GREEN + "JAN")
-    time.sleep(3)
-    print(Fore.CYAN + "I made a lot of projects with C/C++(Using since I was 6 years old). And learnt python(still evolving).")
-    time.sleep(3)
-    print(Fore.CYAN + "You can find me here : ")
-    time.sleep(1)
-    print("[+] " + Fore.RED + "Discord : " + Fore.CYAN + "Shahin#2317")
 
+def H():
+    print(f"{color.CBOLD}{color.CBLUE}[*]{color.CWHITE} Starting {color.CWHITE2}Vector{color.CWHITE}...")
+    time.sleep(1)
+    print(f"{color.CBLUE}[|-|]{color.CBLUE} H4wK1n6",end="\r")
+    time.sleep(0.5)
+    print(f"{color.CBLUE}[|-|]{color.CRED} H4wK1n6",end="\r")
+    time.sleep(0.5)
+    print(f"{color.CBLUE}[|-|]{color.CGREEN} H4wK1n6",end="\r")
+    time.sleep(1)
+    print(f"""Hey! You wanted to get some information about {color.CRED} H4wK1n6! Allright....""")
+    time.sleep(0.4)
+    print(f"""
+I am an experienced {color.CRED}competitive/robotics{color.CWHITE} programmer and {color.CRED}cyber{color.CWHITE} security student. I am 
+from {color.CBLUE}Aze{color.CRED}rbai{color.CGREEN}jan{color.CWHITE}. I know C/C++(Using since I was 6 years old). And learnt python(still evolving).
+Here is my contact information :
+{color.CBLUE}[*]{color.CWHITE} Discord : Shahin#2317
+{color.CBLUE}[*]{color.CWHITE} Github  : https://github.com/shalekberli
+    """)
 
 def cli(nick):   
     print(f"{color.CBLUE}[*]{color.CWHITE} Starting {color.CWHITE2}Vector{color.CWHITE}...")
