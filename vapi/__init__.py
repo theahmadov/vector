@@ -1,5 +1,5 @@
 from vapi.poor import color
-#from vapi import _social as social
+#from vapi.debug import _social as social
 from vapi import social
 from vapi import breach
 from vapi import geo
