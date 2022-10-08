@@ -1,5 +1,5 @@
 {
-    "count" : 57,
+    "count" : 58,
     
     "1" : {
         "name" : "Instagram",
@@ -513,5 +513,14 @@
         "nf"   : "Tinder | Dating, Make Friends &amp;Meet New People</title>",
         "cll"  : "div::Bdrs(8px) Bgz(cv) Bgp(c) StretchedBox",
         "cll_t": "Bio"
+    },
+    "58" : {
+        "name" : "TikTok",
+        "look" : "https://www.tiktok.com/@{}",
+        "type" : "Stupid People Place",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
     }
 }
