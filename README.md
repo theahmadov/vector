@@ -3,7 +3,7 @@
 
 **Vector** project is doxing (osint) tool for hunt social media accounts , extract locations , contact informations , leak check also it include graph visualiser. This module will show you extracted informations better. Otherwise you can see cli log too. Just need to know how to use. [It is easy...] And also please dont forget to star and fork it if you like it. 
 - Websites that vector searches : [links.md](links.md) 
-
+- Edit config.json for more options : ![](config.json)
 ## Installation
 
 ### Linux -Debian/Arch-
@@ -34,8 +34,11 @@ $ python vector.py xxx.xxx.xxx.xxx
 * **Osint scan includes all scan modules & graph.**
 ## Preview
 
-### Cli social media osint scan
+### Cli social media osint scan [Style : E0]
 ![cli](https://i.hizliresim.com/trpvgr5.PNG)
+
+### Cli social media osint scan [Style : E1]
+![cli](https://i.hizliresim.com/4r2x3q3.PNG)
 
 ### Leak search in social media osint
 ![leaks](https://i.hizliresim.com/5fusmd8.png)
