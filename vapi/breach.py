@@ -18,8 +18,6 @@ def breach_nickname(nickname):
     leaks = []
     if(data_nc['success']==True):
         c = len(data_nc['sources'])
-        res = f"""{color.CBLUE}[*]{color.CWHITE} Found {color.CWHITE2}{data_nc['found']}{color.CWHITE} data leaks include {color.CWHITE2}{nickname}{color.CWHITE} with {color.CWHITE2}{data_nc['passwords']}{color.CWHITE} passwords!"""
-        print(res)
         for j in range(0,c):
             leaks.append(data_nc['sources'][j]["name"])
     else:

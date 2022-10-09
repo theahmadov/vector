@@ -23,7 +23,11 @@ class info:
 class social:
     save = "./vapi/save/info.txt"
     social_json = "./vapi/vapi_db/social.json"
-
+    config_json = "config.json"
+    style = ""
+    with open(config_json,"r") as c:
+        data = json.loads(c.read())
+        style = data["style"]
     with open(social_json, "r") as f:
         data = json.loads(f.read())
 
@@ -180,58 +184,91 @@ def run(nick):
         except:
             problem = True
 
-
-        if problem == False:
-            if type(social.data[f"{n}"]["nf"]) == int:
-                if(req.status_code != social.data[f"{n}"]["nf"]):
-                    if (social.data[f"{n}"]["cll"] != "None" and scrape_c(social.data[f"{n}"]["cll"], look) != "nothing"):
-                        scc = scrape_c(social.data[f"{n}"]["cll"], look)
-                        itype(social.data[f"{n}"]["cll_t"], scc)
-                        social_links.append(social.data[f"{n}"]["name"])
-                        print(f"""[{color.CWHITE2}{social.data[f"{n}"]["name"]}{color.CWHITE}]{color.CGREEN}[{color.CWHITE}
-                        
-    {nick} {color.CBLUE}--> {color.CWHITE2}{social.data[f"{n}"]["look"].format(nick)}
-    {color.CWHITE}Type : {color.CWHITE2}{social.data[f"{n}"]["type"]}
-    {color.CWHITE}Most used Country :{color.CWHITE2} {social.data[f"{n}"]["cn"]}
-    {color.CBLUE}[+] {color.CWHITE}{social.data[f"{n}"]["cll_t"]} : {color.CWHITE2}{scc}                   
+        if(social.style=="E0"):
+            if problem == False:
+                if type(social.data[f"{n}"]["nf"]) == int:
+                    if(req.status_code != social.data[f"{n}"]["nf"]):
+                        if (social.data[f"{n}"]["cll"] != "None" and scrape_c(social.data[f"{n}"]["cll"], look) != "nothing"):
+                            scc = scrape_c(social.data[f"{n}"]["cll"], look)
+                            itype(social.data[f"{n}"]["cll_t"], scc)
+                            social_links.append(social.data[f"{n}"]["name"])
+                            print(f"""[{color.CWHITE2}{social.data[f"{n}"]["name"]}{color.CWHITE}]{color.CGREEN}[{color.CWHITE}
+                            
+        {nick} {color.CBLUE}--> {color.CWHITE2}{social.data[f"{n}"]["look"].format(nick)}
+        {color.CWHITE}Type : {color.CWHITE2}{social.data[f"{n}"]["type"]}
+        {color.CWHITE}Most used Country :{color.CWHITE2} {social.data[f"{n}"]["cn"]}
+        {color.CBLUE}[+] {color.CWHITE}{social.data[f"{n}"]["cll_t"]} : {color.CWHITE2}{scc}                   
 {color.CGREEN}]{color.CWHITE}""")
-                        
-                        
-                    else:
-                        social_links.append(social.data[f"{n}"]["name"])
-                        print(f"""[{color.CWHITE2}{social.data[f"{n}"]["name"]}{color.CWHITE}]{color.CGREEN}[{color.CWHITE}
+                            
+                            
+                        else:
+                            social_links.append(social.data[f"{n}"]["name"])
+                            print(f"""[{color.CWHITE2}{social.data[f"{n}"]["name"]}{color.CWHITE}]{color.CGREEN}[{color.CWHITE}
 
-    {nick} {color.CBLUE}--> {color.CWHITE2}{social.data[f"{n}"]["look"].format(nick)}
-    {color.CWHITE}Type : {color.CWHITE2}{social.data[f"{n}"]["type"]}
-    {color.CWHITE}Most used Country :{color.CWHITE2} {social.data[f"{n}"]["cn"]}              
+        {nick} {color.CBLUE}--> {color.CWHITE2}{social.data[f"{n}"]["look"].format(nick)}
+        {color.CWHITE}Type : {color.CWHITE2}{social.data[f"{n}"]["type"]}
+        {color.CWHITE}Most used Country :{color.CWHITE2} {social.data[f"{n}"]["cn"]}              
 {color.CGREEN}]{color.CWHITE}""")
+                else:
+                    if((social.data[f"{n}"]["nf"] in req.text) == False):
+                        if (social.data[f"{n}"]["cll"] != "None" and scrape_c(social.data[f"{n}"]["cll"], look) != "nothing"):
+                            scc = scrape_c(social.data[f"{n}"]["cll"], look)
+                            itype(social.data[f"{n}"]["cll_t"], scc)
+                            social_links.append(social.data[f"{n}"]["name"])
+                            print(f"""[{color.CWHITE2}{social.data[f"{n}"]["name"]}{color.CWHITE}]{color.CGREEN}[{color.CWHITE}
+
+        {nick} {color.CBLUE}--> {color.CWHITE2}{social.data[f"{n}"]["look"].format(nick)}
+        {color.CWHITE}Type : {color.CWHITE2}{social.data[f"{n}"]["type"]}
+        {color.CWHITE}Most used Country :{color.CWHITE2} {social.data[f"{n}"]["cn"]}
+        {color.CBLUE}[+] {color.CWHITE}{social.data[f"{n}"]["cll_t"]} : {color.CWHITE2}{scc}                   
+{color.CGREEN}]{color.CWHITE}""")
+                            
+                        else:
+                            social_links.append(social.data[f"{n}"]["name"])
+                            print(f"""[{color.CWHITE2}{social.data[f"{n}"]["name"]}{color.CWHITE}]{color.CGREEN}[{color.CWHITE}
+
+        {nick} {color.CBLUE}--> {color.CWHITE2}{social.data[f"{n}"]["look"].format(nick)}
+        {color.CWHITE}Type : {color.CWHITE2}{social.data[f"{n}"]["type"]}
+        {color.CWHITE}Most used Country :{color.CWHITE2} {social.data[f"{n}"]["cn"]}                  
+{color.CGREEN}]{color.CWHITE}""")
+
             else:
-                if((social.data[f"{n}"]["nf"] in req.text) == False):
-                    if (social.data[f"{n}"]["cll"] != "None" and scrape_c(social.data[f"{n}"]["cll"], look) != "nothing"):
-                        scc = scrape_c(social.data[f"{n}"]["cll"], look)
-                        itype(social.data[f"{n}"]["cll_t"], scc)
-                        social_links.append(social.data[f"{n}"]["name"])
-                        print(f"""[{color.CWHITE2}{social.data[f"{n}"]["name"]}{color.CWHITE}]{color.CGREEN}[{color.CWHITE}
+                expc = exp_check(n)
+                print(exp(expc[0],expc[1],nick))
+                problem = False
+                
+        elif(social.style=="E1"):
+            if problem == False:
+                if type(social.data[f"{n}"]["nf"]) == int:
+                    if(req.status_code != social.data[f"{n}"]["nf"]):
+                        if (social.data[f"{n}"]["cll"] != "None" and scrape_c(social.data[f"{n}"]["cll"], look) != "nothing"):
+                            scc = scrape_c(social.data[f"{n}"]["cll"], look)
+                            itype(social.data[f"{n}"]["cll_t"], scc)
+                            social_links.append(social.data[f"{n}"]["name"])
+                            print(f'''{color.CGREEN}[{time.strftime("%R")}] {color.CWHITE2}{social.data[f"{n}"]["name"]}{color.CWHITE} --> {color.CWHITE2}{social.data[f"{n}"]["look"].format(nick)}
+{color.CBLUE}[!] {color.CWHITE2}{social.data[f"{n}"]["cll_t"]} : {scc}''')
+                            
+                            
+                        else:
+                            social_links.append(social.data[f"{n}"]["name"])
+                            print(f'''{color.CGREEN}[{time.strftime("%R")}] {color.CWHITE2}{social.data[f"{n}"]["name"]}{color.CWHITE} --> {color.CWHITE2}{social.data[f"{n}"]["look"].format(nick)}''')
+                else:
+                    if((social.data[f"{n}"]["nf"] in req.text) == False):
+                        if (social.data[f"{n}"]["cll"] != "None" and scrape_c(social.data[f"{n}"]["cll"], look) != "nothing"):
+                            scc = scrape_c(social.data[f"{n}"]["cll"], look)
+                            itype(social.data[f"{n}"]["cll_t"], scc)
+                            social_links.append(social.data[f"{n}"]["name"])
+                            print(f'''{color.CGREEN}[{time.strftime("%R")}] {color.CWHITE2}{social.data[f"{n}"]["name"]}{color.CWHITE} --> {color.CWHITE2}{social.data[f"{n}"]["look"].format(nick)}
+{color.CBLUE}[!] {color.CWHITE2}{social.data[f"{n}"]["cll_t"]} : {scc}''')
+                            
+                        else:
+                            social_links.append(social.data[f"{n}"]["name"])
+                            print(f'''{color.CGREEN}[{time.strftime("%R")}] {color.CWHITE2}{social.data[f"{n}"]["name"]}{color.CWHITE} --> {color.CWHITE2}{social.data[f"{n}"]["look"].format(nick)}''')
 
-    {nick} {color.CBLUE}--> {color.CWHITE2}{social.data[f"{n}"]["look"].format(nick)}
-    {color.CWHITE}Type : {color.CWHITE2}{social.data[f"{n}"]["type"]}
-    {color.CWHITE}Most used Country :{color.CWHITE2} {social.data[f"{n}"]["cn"]}
-    {color.CBLUE}[+] {color.CWHITE}{social.data[f"{n}"]["cll_t"]} : {color.CWHITE2}{scc}                   
-{color.CGREEN}]{color.CWHITE}""")
-                        
-                    else:
-                        social_links.append(social.data[f"{n}"]["name"])
-                        print(f"""[{color.CWHITE2}{social.data[f"{n}"]["name"]}{color.CWHITE}]{color.CGREEN}[{color.CWHITE}
-
-    {nick} {color.CBLUE}--> {color.CWHITE2}{social.data[f"{n}"]["look"].format(nick)}
-    {color.CWHITE}Type : {color.CWHITE2}{social.data[f"{n}"]["type"]}
-    {color.CWHITE}Most used Country :{color.CWHITE2} {social.data[f"{n}"]["cn"]}                  
-{color.CGREEN}]{color.CWHITE}""")
-
-        else:
-            expc = exp_check(n)
-            print(exp(expc[0],expc[1],nick))
-            problem = False
+            else:
+                expc = exp_check(n)
+                print(exp(expc[0],expc[1],nick))
+                problem = False
 
     print(f"""
 {color.CBLUE}[*]{color.CWHITE2} Vector Social Osint Result :
