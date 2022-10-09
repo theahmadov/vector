@@ -531,5 +531,14 @@
         "nf"   : 404,
         "cll"  : "None",
         "cll_t": "None"
+    },
+    "60" : {
+        "name" : "9GAG",
+        "look" : "https://9gag.com/u/{}",
+        "type" : "Meme",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
     }
 }
