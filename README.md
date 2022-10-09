@@ -1,5 +1,5 @@
-# Vector ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) <img src="https://komarev.com/ghpvc/?username=thesaderror&color=brightgreen" alt="watching_count" />
-![head](https://media.discordapp.net/attachments/1017858747827228753/1027922053082398740/hmm.png)
+# Vector ![](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) <img src="https://komarev.com/ghpvc/?username=thesaderror&color=brightgreen" alt="watching_count" />
+![](https://i.hizliresim.com/rqz6n9e.PNG)
 
 **Vector** project is doxing (osint) tool for **hunt social media accounts , extract locations , contact informations , leak check** also it include **graph visualiser**. This module will show you extracted informations better. Otherwise you can see cli log too. Just need to know how to use. [It is easy...] And also please dont forget to star and fork it if you like it. 
 * Websites that vector searches : [links.md](links.md) -**84 Important Websites**-
@@ -45,16 +45,8 @@ $ python vector.py xxx.xxx.xxx.xxx
 ![leaks](https://i.hizliresim.com/5fusmd8.png)
 
 ### Graph GUI
-<div>
-  <p align="center">
-    <img src="https://i.hizliresim.com/bgnl7da.PNG" width="800"> 
-  </p>
-</div>
-<div>
-  <p align="center">
-    <img src="https://i.hizliresim.com/rqz6n9e.PNG" width="800"> 
-  </p>
-</div>
+![1](https://i.hizliresim.com/bgnl7da.PNG)
+![2](https://i.hizliresim.com/rqz6n9e.PNG)
 
 # Disclamier
 **Vector** osint tool is only for educational purposes. And all rights reserved by **Thesaderror** and **H4wK1n6**.
