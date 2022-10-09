@@ -1,5 +1,5 @@
 {
-    "count" : 60,
+    "count" : 64,
     
     "1" : {
         "name" : "Instagram",
@@ -536,6 +536,51 @@
         "name" : "9GAG",
         "look" : "https://9gag.com/u/{}",
         "type" : "Meme",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "61" : {
+        "name" : "Airbit",
+        "look" : "https://airbit.com/{}",
+        "type" : "Music",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "62" : {
+        "name" : "Airlines",
+        "look" : "https://www.airliners.net/user/{}/profile/photos",
+        "type" : "Plane - Airlines",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "63" : {
+        "name" : "Allmylinks",
+        "look" : "https://allmylinks.com/{}",
+        "type" : "Links Depo",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "63" : {
+        "name" : "Dev Apple",
+        "look" : "https://developer.apple.com/forums/profile/{}",
+        "type" : "Code - Forum",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "div::user-stats",
+        "cll_t": "Stats"
+    },
+    "64" : {
+        "name" : "Discuss Apple",
+        "look" : "https://discussions.apple.com/profile/{}/participation",
+        "type" : "Code - Forum",
         "cn"   : "General",
         "nf"   : 404,
         "cll"  : "None",
