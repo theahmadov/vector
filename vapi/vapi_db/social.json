@@ -1,5 +1,5 @@
 {
-    "count" : 75,
+    "count" : 80,
     
     "1" : {
         "name" : "Instagram",
@@ -684,5 +684,50 @@
         "nf"   : 404,
         "cll"  : "None",
         "cll_t": "None"
+    },
+    "76" : {
+        "name" : "Buymeacoffe",
+        "look" : "https://www.buymeacoffee.com/{}",
+        "type" : "Support - Donate",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "span::cr-bold cr-bold-accented dis-block  w-100 text-fs-30 xs-text-fs-24",
+        "cll_t": "Real Name"
+    },
+    "77" : {
+        "name" : "Cnet",
+        "look" : "https://www.cnet.com/profiles/{}/",
+        "type" : "News",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "div::profile-info",
+        "cll_t": "Bio"
+    },
+    "78" : {
+        "name" : "Championat",
+        "look" : "https://www.championat.com/user/{}/",
+        "type" : "Futball",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "79" : {
+        "name" : "ClubHause",
+        "look" : "https://www.clubhouse.com/@{}",
+        "type" : "News",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "div::truncate text-lg sm:text-xl font-semibold",
+        "cll_t": "Real Name"
+    },
+    "80" : {
+        "name" : "Codepen",
+        "look" : "https://codepen.io/{}",
+        "type" : "Code",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "span::profile-name-wrapper",
+        "cll_t": "Real Name"
     }
 }
