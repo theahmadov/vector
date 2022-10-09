@@ -17,4 +17,5 @@ def biose(bio,w):
         for s in range(0,len(websites)):
             if(bio.count(websites[s]) > 0):
                 return s
-    
+    elif(w=="phone_num"):
+        return "waiting shahin..."
