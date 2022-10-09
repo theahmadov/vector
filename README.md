@@ -45,8 +45,16 @@ $ python vector.py xxx.xxx.xxx.xxx
 ![leaks](https://i.hizliresim.com/5fusmd8.png)
 
 ### Graph GUI
-![1](https://i.hizliresim.com/bgnl7da.PNG)
-![2](https://i.hizliresim.com/rqz6n9e.PNG)
+<div>
+  <p align="center">
+    <img src="https://i.hizliresim.com/bgnl7da.PNG" width="800"> 
+  </p>
+</div>
+<div>
+  <p align="center">
+    <img src="https://i.hizliresim.com/rqz6n9e.PNG" width="800"> 
+  </p>
+</div>
 
 # Disclamier
 **Vector** osint tool is only for educational purposes. And all rights reserved by **Thesaderror** and **H4wK1n6**.
