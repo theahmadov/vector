@@ -1,6 +1,7 @@
 {
   "phone_scraper" :{
     "Owner" : "PiggyBank#0474",
-    "IDEA"    : "Get phone numbers using vector bios. And the result of Vector is flat.",
+    "Idea"  : "Get phone numbers using vector bios. And the result of Vector is flat.",
+    "Done"  : "False"
   }
 }
