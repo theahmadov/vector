@@ -32,7 +32,7 @@ $ python vector.py xxx.xxx.xxx.xxx
 ```
 * **You just need a target :|**
 * **Osint scan includes all scan modules & graph.**
-## Examples - Photos
+## Preview
 
 ### Cli social media osint scan
 ![cli](https://i.hizliresim.com/trpvgr5.PNG)
