@@ -1,5 +1,5 @@
 {
-    "count" : 58,
+    "count" : 60,
     
     "1" : {
         "name" : "Instagram",
@@ -518,6 +518,15 @@
         "name" : "TikTok",
         "look" : "https://www.tiktok.com/@{}",
         "type" : "Stupid People Place",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "59" : {
+        "name" : "7CUP",
+        "look" : "https://www.7cups.com/@{}",
+        "type" : "Psychologist",
         "cn"   : "General",
         "nf"   : 404,
         "cll"  : "None",
