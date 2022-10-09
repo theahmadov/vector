@@ -1,5 +1,5 @@
 # Vector ![](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) <img src="https://komarev.com/ghpvc/?username=thesaderror&color=brightgreen" alt="watching_count" />
-![](https://i.hizliresim.com/rqz6n9e.PNG)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Vector_Logo_black_red_RGB.svg/1280px-Vector_Logo_black_red_RGB.svg.png)
 
 **Vector** project is doxing (osint) tool for **hunt social media accounts , extract locations , contact informations , leak check** also it include **graph visualiser**. This module will show you extracted informations better. Otherwise you can see cli log too. Just need to know how to use. [It is easy...] And also please dont forget to star and fork it if you like it. 
 * Websites that vector searches : [links.md](links.md) -**84 Important Websites**-
