@@ -1,5 +1,5 @@
 {
-    "count" : 80,
+    "count" : 84,
     
     "1" : {
         "name" : "Instagram",
@@ -729,5 +729,41 @@
         "nf"   : 404,
         "cll"  : "span::profile-name-wrapper",
         "cll_t": "Real Name"
+    },
+    "81" : {
+        "name" : "Crowdin",
+        "look" : "https://crowdin.com/profile/{}",
+        "type" : "IT - Web Monitor",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "82" : {
+        "name" : "Etsy",
+        "look" : "https://www.etsy.com/shop/{}",
+        "type" : "Shop",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "83" : {
+        "name" : "Cults3d",
+        "look" : "https://cults3d.com/en/users/{}/creations",
+        "type" : "Design",
+        "cn"   : "General",
+        "nf"   : 404,
+        "cll"  : "None",
+        "cll_t": "None"
+    },
+    "84" : {
+        "name" : "Elastic",
+        "look" : "https://discuss.elastic.co/u/{}",
+        "type" : "IT - PC",
+        "cn"   : "General",
+        "nf"   : "Oops! That page doesn’t exist or is private.,
+        "cll"  : "None",
+        "cll_t": "None"
     }
 }
