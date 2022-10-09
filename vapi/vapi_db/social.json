@@ -585,7 +585,7 @@
         "nf"   : 404,
         "cll"  : "None",
         "cll_t": "None"
-    }},
+    },
     "65" : {
         "name" : "Ardunio",
         "look" : "https://create.arduino.cc/projecthub/{}",
