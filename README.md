@@ -51,4 +51,3 @@ $ python vector.py xxx.xxx.xxx.xxx
 
 # Disclamier
 **Vector** osint tool is only for educational purposes. And all rights reserved by **Thesaderror** and **H4wK1n6**.
-![Contribution1](https://activity-graph.herokuapp.com/graph?username=thesaderror&theme=react-dark&hide_border=true&area=true)
