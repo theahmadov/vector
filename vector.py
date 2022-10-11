@@ -16,6 +16,7 @@ $ python vector.py nickname
 import typer
 
 import vapi
+from vapi.check_ import check
 
 def is_ip(ip):
     if(ip.count(".")==3):
@@ -24,7 +25,7 @@ def is_ip(ip):
         return False
 
 def main(vinp: str):
-    vapi.check()
+    check()
     email = False
     em = ["@outlook", "@gmail", "@hotmail", "@yahoo"]
     bnck = ""
