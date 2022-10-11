@@ -24,7 +24,7 @@ def is_ip(ip):
         return False
 
 def main(vinp: str):
-    
+    vapi.check()
     email = False
     em = ["@outlook", "@gmail", "@hotmail", "@yahoo"]
     bnck = ""
@@ -41,7 +41,7 @@ def main(vinp: str):
     elif(email==True):                                                          vapi.email(vinp,bnck)
     elif(is_ip(vinp)):                                                          vapi.geos(vinp)
     else:                                                                       vapi.cli(vinp)
-
+    
 
 if __name__ == "__main__":
     vapi.clear()
