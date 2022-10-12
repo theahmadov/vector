@@ -690,7 +690,7 @@
         "look" : "https://www.buymeacoffee.com/{}",
         "type" : "Support - Donate",
         "cn"   : "General",
-        "nf"   : 404,
+        "nf"   : "<title>Buy Me a Coffee – Give your audience a way to thank you </title>",
         "cll"  : "span::cr-bold cr-bold-accented dis-block  w-100 text-fs-30 xs-text-fs-24",
         "cll_t": "Real Name"
     },
