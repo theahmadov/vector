@@ -18,6 +18,7 @@ class info:
     bio = None
     web = None
     bio_s = []
+    phone = None
 
 
 class social:
@@ -120,6 +121,9 @@ def itype(clt, dt):
 
         if clt == "Bio":
             info.bio_s.append(dt)
+            if(biose(dt, "phone_num")!="invalid"):
+                info.phone = biose(dt, "phone_num")
+                
             if info.bio == None:
                 info.bio = dt
             else:
@@ -278,7 +282,10 @@ def run(nick):
     Email     : {info.email}
     Bio       : {info.bio}
     Web       : {info.web}
+    Phone Num : {info.phone}
     """)
+    
+    
     nickname = info.nickname
     name = info.name 
     locations= info.locations
