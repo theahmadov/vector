@@ -498,10 +498,10 @@
     },
     "56" : {
         "name" : "Instructables",
-        "look" : "https://www.instructables.com/member/error/",
+        "look" : "https://www.instructables.com/member/{}/",
         "type" : "3D Design",
         "cn"   : "General",
-        "nf"   : "<title>Imgur: The magic of the Internet</title>",
+        "nf"   : 404,
         "cll"  : "None",
         "cll_t": "None"
     },
