@@ -492,7 +492,7 @@
         "look" : "https://imgur.com/user/{}",
         "type" : "Social - Media",
         "cn"   : "General",
-        "nf"   : "<title>Page Not Found</title>.",
+        "nf"   : 304,
         "cll"  : "None",
         "cll_t": "None"
     },
