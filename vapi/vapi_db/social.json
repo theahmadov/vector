@@ -627,7 +627,7 @@
         "look" : "https://www.autofrage.net/nutzer/{}",
         "type" : "Social - Media",
         "cn"   : "General",
-        "nf"   : 404,
+        "nf"   : "<title>autofrage.net - Auto Fragen - alles rund um Auto, Motor und ",
         "cll"  : "None",
         "cll_t": "None"
     },
