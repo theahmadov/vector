@@ -411,7 +411,7 @@
         "look" : "https://creativemarket.com/{}",
         "type" : "Design",
         "cn"   : "General",
-        "nf"   : "<title>Whoomp, there it isn't! | Creative Market</title>",
+        "nf"   : 404,
         "cll"  : "None",
         "cll_t": "None"
     },
