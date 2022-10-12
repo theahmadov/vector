@@ -726,7 +726,7 @@
         "look" : "https://codepen.io/{}",
         "type" : "Code",
         "cn"   : "General",
-        "nf"   : 404,
+        "nf"   : "<title>404 on CodePen</title>",
         "cll"  : "span::profile-name-wrapper",
         "cll_t": "Real Name"
     },
