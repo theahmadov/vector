@@ -474,7 +474,7 @@
         "look" : "https://www.houzz.com/user/{}",
         "type" : "Design",
         "cn"   : "General",
-        "nf"   : "<title>Page Not Found</title>.",
+        "nf"   : 404,
         "cll"  : "None",
         "cll_t": "None"
     },
