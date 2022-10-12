@@ -537,7 +537,7 @@
         "look" : "https://9gag.com/u/{}",
         "type" : "Meme",
         "cn"   : "General",
-        "nf"   : 404,
+        "nf"   : "<title>9GAG - 404 Nothing here</title>",
         "cll"  : "None",
         "cll_t": "None"
     },
