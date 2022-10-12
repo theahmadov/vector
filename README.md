@@ -16,10 +16,7 @@ pip install -r requirements.txt
 python vector.py v
 ```
 ### Windows Installation
-```
-Use Code button on github and press download button. Extract vector-main zip , rar or tar.gz 
-file on file manager. And open directory by terminal. And start to read Help-Guide section.
-```
+- Install : https://github.com/thesaderror/vector/releases/tag/2.0
 
 ## Help-Guide
 ```
