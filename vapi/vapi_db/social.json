@@ -510,7 +510,7 @@
         "look" : "https://tinder.com/@{}",
         "type" : "Dating",
         "cn"   : "General",
-        "nf"   : "Tinder | Dating, Make Friends &amp;Meet New People</title>",
+        "nf"   : 304,
         "cll"  : "div::Bdrs(8px) Bgz(cv) Bgp(c) StretchedBox",
         "cll_t": "Bio"
     },
