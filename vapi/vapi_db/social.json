@@ -600,7 +600,7 @@
         "look" : "https://www.artstation.com/{}",
         "type" : "Art",
         "cn"   : "General",
-        "nf"   : 404,
+        "nf"   : "<title>ArtStation - Oops! 404 Error</title>",
         "cll"  : "div::artist-additional-info",
         "cll_t": "Bio"
     },
