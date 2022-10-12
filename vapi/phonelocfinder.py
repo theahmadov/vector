@@ -348,71 +348,70 @@ providers = {
     "Zimbabwe" : {"71" : "Net One", "73" : "Telecel Zimbabwe", "77" : "Econet Zimbabwe"}
 }
 
-ccode = str(input(Fore.CYAN + "Now, Please, enter the country code(without plus(+)) : ")) #reading country code right now
-#checking all elements not to be letter
-for ch in ccode:
-    checkthiskidisstupidornot1 = ch.isalpha()
-    if checkthiskidisstupidornot1 == True:
-        # This is ELON MUSK
+
+def plookup(ccode,pcode,rempart):
+    #checking all elements not to be letter
+    for ch in ccode:
+        checkthiskidisstupidornot1 = ch.isalpha()
+        if checkthiskidisstupidornot1 == True:
+            # This is ELON MUSK
+            print(Fore.CYAN + "Wrong...Not Letters, only digits :)")
+            exit()
+    checkthiskidisstupidornot2 = '+' in ccode
+    if checkthiskidisstupidornot2 == True:
+        # This is ElOn MuSk
         print(Fore.CYAN + "Wrong...Not Letters, only digits :)")
         exit()
-checkthiskidisstupidornot2 = '+' in ccode
-if checkthiskidisstupidornot2 == True:
-    # This is ElOn MuSk
-    print(Fore.CYAN + "Wrong...Not Letters, only digits :)")
-    exit()
-country = countries[str(ccode)]
-pcode = str(input(Fore.CYAN + "Now, Please, enter the carrer number(if it is splitted, write it without space) : "))
-rempart = str(input(Fore.CYAN + "The remaining part of the phone number plz(without spaces) : "))
-checkthiskidisstupidornot31 = ' ' in rempart
-if checkthiskidisstupidornot31 == True:
-    # This is ElOn MuSk
-    print(Fore.CYAN + "Wrong...No Space, only digits :)")
-    exit()
-checkthiskidisstupidornot3 = ' ' in pcode
-if checkthiskidisstupidornot3 == True:
-    # This is ElOn MuSk
-    print(Fore.CYAN + "Wrong...No Space, only digits :)")
-    exit()
-for ch in pcode:
-    checkthiskidisstupidornot4 = ch.isalpha()
-    if checkthiskidisstupidornot4 == True:
-        # This is ELON MUSK
-        print(Fore.CYAN + "Wrong...Not Letters, only digits :)")
+    country = countries[str(ccode)]
+    checkthiskidisstupidornot31 = ' ' in rempart
+    if checkthiskidisstupidornot31 == True:
+        # This is ElOn MuSk
+        print(Fore.CYAN + "Wrong...No Space, only digits :)")
         exit()
-provider = "None"
+    checkthiskidisstupidornot3 = ' ' in pcode
+    if checkthiskidisstupidornot3 == True:
+        # This is ElOn MuSk
+        print(Fore.CYAN + "Wrong...No Space, only digits :)")
+        exit()
+    for ch in pcode:
+        checkthiskidisstupidornot4 = ch.isalpha()
+        if checkthiskidisstupidornot4 == True:
+            # This is ELON MUSK
+            print(Fore.CYAN + "Wrong...Not Letters, only digits :)")
+            exit()
+    provider = "None"
 
-ruseriousrnnow = country not in providers
+    ruseriousrnnow = country not in providers
 
-cforp = "Bruh"
-if ruseriousrnnow == False:
-    cforp = providers[country]
-wtfisthis = type(cforp) is str
-if wtfisthis == True:
-    provider = cforp
-for k, v in cforp.items():
-    #print(v)
-    if k == pcode:
-        provider = v
-        break
-    else:
-        isx = 'x' in k
-        if isx == True:
-            if len(k) != len(pcode):
-                continue
-            else:
-                i = 0
-                j = 0
-                cnt = 0
-                while k[i] != 'x' and k[i] == pcode[j]:
-                    cnt += 1
-                    i += 1
-                    j += 1
-                if cnt >= 1:
-                    provider = v
-                    break
-print("For results : +" + Fore.RED + ccode + pcode + rempart)
-print(Fore.CYAN + "Country : " + Fore.GREEN + country)
-print(Fore.CYAN + "Provider : " + Fore.GREEN + provider)
+    cforp = "Bruh"
+    if ruseriousrnnow == False:
+        cforp = providers[country]
+    wtfisthis = type(cforp) is str
+    if wtfisthis == True:
+        provider = cforp
+    for k, v in cforp.items():
+        #print(v)
+        if k == pcode:
+            provider = v
+            break
+        else:
+            isx = 'x' in k
+            if isx == True:
+                if len(k) != len(pcode):
+                    continue
+                else:
+                    i = 0
+                    j = 0
+                    cnt = 0
+                    while k[i] != 'x' and k[i] == pcode[j]:
+                        cnt += 1
+                        i += 1
+                        j += 1
+                    if cnt >= 1:
+                        provider = v
+                        break
+    print("For results : +" + Fore.RED + ccode + pcode + rempart)
+    print(Fore.CYAN + "Country : " + Fore.GREEN + country)
+    print(Fore.CYAN + "Provider : " + Fore.GREEN + provider)
 
-#Coded by Shahin
+    #Coded by Shahin
