@@ -447,7 +447,7 @@
         "look" : "https://flipboard.com/@{}",
         "type" : "Blog - News",
         "cn"   : "General",
-        "nf"   : "<title>Flipboard Not Available</title>",
+        "nf"   : 404,
         "cll"  : "None",
         "cll_t": "None"
     },
