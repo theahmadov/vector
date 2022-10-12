@@ -707,8 +707,8 @@
         "name" : "Championat",
         "look" : "https://www.championat.com/user/{}/",
         "type" : "Futball",
-        "cn"   : "General",
-        "nf"   : 404,
+        "cn"   : "Russia",
+        "nf"   : "<title>404 - Чемпионат.com</title>",
         "cll"  : "None",
         "cll_t": "None"
     },
