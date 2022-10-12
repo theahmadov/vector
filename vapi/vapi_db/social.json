@@ -438,7 +438,7 @@
         "look" : "https://ello.co/{}",
         "type" : "Blog - News",
         "cn"   : "General",
-        "nf"   :  "<title>Ello | Be inspired. | [404] Not Found</title>",
+        "nf"   :  404,
         "cll"  : "None",
         "cll_t": "None"
     },
