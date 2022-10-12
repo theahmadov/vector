@@ -789,7 +789,7 @@
         "look" : "https://www.finanzfrage.net/nutzer/{}",
         "type" : "News",
         "cn"   : "Germany",
-        "nf"   : 404,
+        "nf"   : "<title>Gute Fragen - hilfreiche Antworten - die Finanz-Ratgeber Community finanzfrage.net</title>",
         "cll"  : "None",
         "cll_t": "None"
     },
