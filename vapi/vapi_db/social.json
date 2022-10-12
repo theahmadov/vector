@@ -771,7 +771,7 @@
         "look" : "https://hub.docker.com/u/{}",
         "type" : "IT - PC",
         "cn"   : "General",
-        "nf"   : 404,
+        "nf"   : "<title>Docker Hub</title>",
         "cll"  : "None",
         "cll_t": "None"
     },
