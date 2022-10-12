@@ -350,6 +350,7 @@ providers = {
 
 
 def plookup(ccode,pcode,rempart):
+    phone = str(ccode)+str(pcode)+str(rempart)
     #checking all elements not to be letter
     for ch in ccode:
         checkthiskidisstupidornot1 = ch.isalpha()
