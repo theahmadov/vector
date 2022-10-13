@@ -8,6 +8,7 @@ from vapi.error import exp
 from vapi.bios import biose
 from vapi import breach
 from vapi import visvapi
+from vapi import result
 
 class info:
     nickname = None
