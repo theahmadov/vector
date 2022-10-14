@@ -275,16 +275,7 @@ def run(nick):
                 print(exp(expc[0],expc[1],nick))
                 problem = False
 
-    print(f"""
-{color.CBLUE}[*]{color.CWHITE2} Vector Social Osint Result :
-    Nick Name : {info.nickname}
-    Real Name : {info.name}
-    Location  : {info.location}
-    Email     : {info.email}
-    Bio       : {info.bio}
-    Web       : {info.web}
-    Phone Num : {info.phone}
-    """)
+    result.print(info.nickname,info.name,info.email,info.phone,info.location,info.web,info.bio,info.bio_s,info.locations)
     
     
     nickname = info.nickname
