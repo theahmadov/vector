@@ -26,4 +26,4 @@ def print(nn,n,em,ph,loc,web,bio,bio2,loc2):
     for i in loc2:
       location.add(f"🏠 Possible : {i}")
       
-  console.print(tree)
+  console.print(T)
