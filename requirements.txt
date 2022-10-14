@@ -3,3 +3,4 @@ bs4
 typer
 pillow
 rich
+prettytable
