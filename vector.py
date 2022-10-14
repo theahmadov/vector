@@ -25,10 +25,6 @@ def is_ip(ip):
         return False
 
 def main(vinp: str):
-    try:
-        check()
-    except:
-        pass
     email = False
     em = ["@outlook", "@gmail", "@hotmail", "@yahoo"]
     bnck = ""
