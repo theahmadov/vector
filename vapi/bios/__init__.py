@@ -23,7 +23,7 @@ def biose(bio,w):
     elif(w=="phone_num"):
         phone = w.split()
         for i in phone:
-            if j in phone_invalid:
+            for j in phone_invalid:
                 if(j in i):
                     pass
                 else:
