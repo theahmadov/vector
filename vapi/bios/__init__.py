@@ -7,9 +7,12 @@ def biose(bio,w):
     bio = bio.split()
 
     if(w=="loc"):
-        for i in range(0,len(locations)):
-            if(bio.count(locations[i]) > 0):
-                return i
+      w = w.split()
+      for i in locations:
+        if i in w:
+          return i
+      
+              
     elif(w=="mail"):
         for m in range(0,len(emails)):
             if(bio.count(emails[m]) > 0):
@@ -23,7 +26,7 @@ def biose(bio,w):
     elif(w=="phone_num"):
         phone = w.split()
         for i in phone:
-            for j in phone_invalid:
+            if j in phone_invalid:
                 if(j in i):
                     pass
                 else:
