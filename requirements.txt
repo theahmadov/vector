@@ -4,3 +4,4 @@ typer
 pillow
 rich
 prettytable
+pyvis
