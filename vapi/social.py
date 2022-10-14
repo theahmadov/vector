@@ -276,7 +276,7 @@ def run(nick):
                 problem = False
 
     result.print(info.nickname,info.name,info.email,info.phone,info.location,info.web,info.bio,info.bio_s,info.locations)
-    
+    time.sleep(2)
     
     nickname = info.nickname
     name = info.name 
