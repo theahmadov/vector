@@ -15,7 +15,7 @@ class info:
     name = None
     location = None
     locations = []
-    email = ""
+    email = None
     bio = None
     web = None
     bio_s = []
