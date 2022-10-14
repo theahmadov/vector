@@ -16,7 +16,6 @@ $ python vector.py nickname
 import typer
 
 import vapi
-from vapi.check_ import check
 
 def is_ip(ip):
     if(ip.count(".")==3):
