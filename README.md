@@ -1,6 +1,9 @@
 # Vector ![](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) <img src="https://komarev.com/ghpvc/?username=thesaderror&color=brightgreen" alt="watching_count" />
 ![](https://media.discordapp.net/attachments/1028720953515057162/1028914619219181609/vector.png)
 
+* **Dont forget to check new version of Vector (Slash)** : https://github.com/thesaderror/slash
+
+
 **Vector** is a doxing (**OSINT**) tool , to gather social media accounts, find **locations**, and **contact information**, and **leak check**. Also, there is included a **graph visualizer**. This module will show you gathered information better. Otherwise, you can see **CLI log** too. You just need to know how to use it. [It is easy...] And also please don't forget to give a **star** and **fork** it if you like it. 
 
 * Social Media Links : [links.md](links.md)
